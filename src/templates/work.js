@@ -42,7 +42,7 @@ export const query = graphql`
       title
       excerpt
       gallery {
-        fluid(maxWidth: 200, imgixParams: { fm: "jpg", auto: "compress" }) {
+        fluid(maxWidth: 600, imgixParams: { fm: "jpg", auto: "compress" }) {
           src
         }
       }
